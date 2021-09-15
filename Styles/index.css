@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+    background-image: url(../images/horse-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.form {
+    box-sizing: border-box;
+    max-width: 550px;
+    width: 100%;
+    min-height: 500px;
+    padding: 20px;
+    background-color:  #406B84;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #263D36;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: end;
+    margin-right: 150px;
+    font-family: 'Bona Nova', serif;
+    color: #001514;
+}
+.label {
+    background-color: #3A6178;
+    color: black;
+    font-weight: bold;
+
+}
+.main-title, .main-question, .main-info {
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.input-field, .textarea, .select {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 25px;
+	margin-bottom: 12px;
+	border: 2px solid #816C4F;
+	background-color: #596663;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding-left: 10px;
+    color: black;
+}
+.input-field::placeholder, .textarea::placeholder {
+	color: white;
+	opacity: 0.7;
+}
+.textarea {
+	resize: none;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	border-bottom: none;
+	box-shadow: 2px 2px 6px #263D36;
+	padding-top: 4px;
+    font-family: 'Bona Nova', serif;
+}
+.select-wrapper {
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+}
+
+.select {
+	height: 32px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	color: white;
+	cursor: pointer;
+}
+.select__icon {
+	position: absolute;
+	right: 15px;
+	bottom: 16px;
+	z-index: 2;
+	color: black;
+}
+.checkbox-container {
+	display: flex;
+	align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.button {
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+    margin-top: 20px;
+	border-radius: 8px;
+	border: none;
+	background-color: #596663;
+	color: white;
+	box-shadow: 2px 2px 6px #263D36;
+    font-family: 'Bona Nova', serif;
+    font-size: 16px;
+    font-weight: bold;
+	letter-spacing: 1px;
+}
+
+
+

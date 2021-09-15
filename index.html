@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/0ebdbaeb66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/index.css">
+</head>
+<body>
+    <form action="" class="form">
+        <h1 class="main-title">Travel Form</h1>
+        <h2 class="main-question">Would You like to travel by horseback in the Spanish Pyrenees? </h2>
+        <h3 class="main-info"> Please fill out the form below and we will get back to you shortly.</h3>
+        <label for="name" class="label">Full name</label>
+        <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required="" autofocus="">
+        <label for="email" class="label">Email address</label>
+        <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required="">
+        <div class="select-wrapper">
+            <label for="select" class="label">What experience level are you on as a rider?</label>
+                <select name="rider" class="select" id="select">
+                <i class="fas fa-chevron-circle-down"> </i>
+                <option value="beginner">Beginner, I have little or no experience in handling a horse</option>
+                <option value="novice">Novice, I have some experience and know the basic aids.</option>
+                <option value="intermediate">Intermediate, I feel secure handling a horse and am comfortable in the saddle</option>
+                <option value="advanced">Advanced, I ride regularly and have years of experience with horses.</option>
+                <option value="professional">Professional, horsemanship and riding is my vocation.</option>
+            </select>
+        </div>
+        <label for="password" class="label">Your password</label>
+        <input type="password" name="password" id="password" class="input-field"
+        placeholder="Enter your password" required="" minlength="6">
+        <label class="label label--large">
+            <div class="label__text">Your message</div>
+            <textarea name="message" cols="30" rows="4" class="textarea" placeholder="Enter your message"></textarea>
+        </label>
+        <div class="checkbox-container">
+            <input type="checkbox" checked="">
+            <div class="input-title"> Please email me information about trail riding in the Pyrenees!</div>
+        </div>
+        <button type="submit" class="button">Submit</button>
+    </form>
+
+</body>
+</html>
