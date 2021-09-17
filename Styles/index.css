@@ -36,8 +36,8 @@ body {
 }
 .main-title, .main-question, .main-info {
     text-align: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 12px;
+    margin-top: 12px;
 }
 .input-field, .textarea, .select {
 	box-sizing: border-box;
@@ -50,6 +50,7 @@ body {
 	border-bottom-left-radius: 5px;
 	padding-left: 10px;
     color: black;
+	font-family: 'Bona Nova', serif;
 }
 .input-field::placeholder, .textarea::placeholder {
 	color: white;
@@ -89,6 +90,8 @@ body {
 	align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
+	cursor: pointer;
+	font-size: 16px;
 }
 
 .button {
